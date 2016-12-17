@@ -1,10 +1,81 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Moe's Slack Apps</title>
+	<title>Moe Chughtai - Welcome</title>
+
+	<!-- JQUERY -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<!-- BOOTSTRAP -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
+	<style type="text/css">
+		.no-padding {
+			padding: 0px;
+		}
+
+		.dropdown-menu {
+			position: absolute !important;
+		}
+
+		.no-margin {
+			margin: 0px;
+		}
+
+
+		.navbar-nav {
+			/*width: 100%;*/
+			float: right;
+		}
+
+		.nav-item {
+			float: right;
+		}
+	</style>
+
 </head>
 <body>
-	<h2>Welcome!</h2>
-	<p>Welcome to the site.</p>
+
+<div class="container-fluid">
+
+	<!-- Header -->
+	<div class="row">
+		<h2 class="text-primary text-center col-xs-12">Moe Chughtai</h2>
+	</div>
+
+	<!-- NAVIGATION BAR -->
+	<div class="container-fullwidth row">
+		<nav class="navbar bg-faded col-xs-12">
+			<ul class="nav navbar-nav">
+				<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+				<li class="nav-item ">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Projects and Work<span class="caret"></span></a>
+					<ul class="dropdown-menu pos-abs">
+						<li><a href="#">Projects</a></li>
+						<li><a href="#">Slack Commands</a></li>
+						<li><a href="#">Blog</a></li>
+					</ul>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				</li>
+
+			</ul>
+		</nav>
+	</div>
+
+	<p>Welcome</p>
+</div>
+
+
 </body>
 </html>
