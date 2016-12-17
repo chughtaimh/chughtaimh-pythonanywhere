@@ -10,5 +10,5 @@ sys.path.append(CURRENT_DIRECTORY + '/')
 
 def homepage(*args, **kwargs):
 	"""An HTTP request handler that returns the homepage"""
-	with open('home.html', 'r') as f:
+	with open(CURRENT_DIRECTORY + '/home.html', 'r') as f:
 		return f.read()
