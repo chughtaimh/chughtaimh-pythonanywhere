@@ -7,8 +7,10 @@ import requests
 import sys
 
 from cgi import parse_qs
-
 from utils import kelvin_to_fahrenheit
+
+CURRENT_DIRECTORY = os.path.dirname(os.path.realpath(__file__))
+sys.path.append(CURRENT_DIRECTORY + '/')
 
 SLACKRESPONSE = """\
 {o[temp]}*F ({o[temp_min]}F - {o[temp_max]}F)
