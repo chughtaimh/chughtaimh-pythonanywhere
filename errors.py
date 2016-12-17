@@ -1,0 +1,3 @@
+
+class RequestTypeError(Exception):
+	pass
